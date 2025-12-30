@@ -4,3 +4,11 @@ console.log(name); // Saima
 
 var age = 22;
 console.log(age);
+
+//Problems with var
+//Function scoped (not block scoped)
+//Can be redeclared
+//Causes bugs in large apps
+
+let city = "Lahore";
+console.log(city);
