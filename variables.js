@@ -12,3 +12,7 @@ console.log(age);
 
 let city = "Lahore";
 console.log(city);
+
+let score = 50;
+score = 80; // allowed
+console.log(score);
