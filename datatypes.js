@@ -1,4 +1,8 @@
-// datatypes 
+
+// JavaScript has 2 categories of data types:
+
+//Primitive (Simple values)
+// Non-Primitive / Reference (Complex values)
 let age = 22;        // integer
 let price = 199.99; // decimal
 
