@@ -9,3 +9,9 @@ console.log(a * b);  // 30
 console.log(a / b);  // 3.33
 console.log(a % b);  // 1
 console.log(a ** 2); // 100
+
+
+//Assignment Operators
+let x = 10;
+x += 5;
+console.log(x); // 15
