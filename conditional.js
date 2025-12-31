@@ -1,5 +1,4 @@
 // //if Statement
-
 let age = 20;
 
 if (age >= 18) {
@@ -17,9 +16,7 @@ if (age >= 18) {
 // }
 
 //if...else if...else
-
-// let marks = 75;
-
+let marks = 75;
 if (marks >= 90) {
   console.log("Grade A");
 } else if (marks >= 70) {
@@ -32,14 +29,31 @@ if (marks >= 90) {
 
 //switch Statement
 
-switch(expression) {
-  case value1:
-    // code
+// switch(expression) {
+//   case value1:
+//     // code
+//     break;
+//   case value2:
+//     // code
+//     break;
+//   default:
+//     // code
+// }
+
+let day = 3;
+
+switch (day) {
+  case 1:
+    console.log("Monday");
     break;
-  case value2:
-    // code
+  case 2:
+    console.log("Tuesday");
+    break;
+  case 3:
+    console.log("Wednesday");
     break;
   default:
-    // code
+    console.log("Invalid day");
 }
+
 
