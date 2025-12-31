@@ -9,11 +9,11 @@ for (let i = 1; i <= 5; i++) {
 
 // Looping through Arrays
 
-let fruits = ["Apple", "Banana", "Mango"];
+// let fruits = ["Apple", "Banana", "Mango"];
 
-for (let i = 0; i < fruits.length; i++) {
-  console.log(fruits[i]);
-}
+// for (let i = 0; i < fruits.length; i++) {
+//   console.log(fruits[i]);
+// }
 
 //while Loop
 
@@ -30,3 +30,11 @@ do {
   console.log("Count: " + i);
   i++;
 } while (i <= 5);
+
+
+// forEach Loop (Array Method)
+let fruits = ["Apple", "Banana", "Mango"];
+
+fruits.forEach(function(fruit, index) {
+  console.log(index + ": " + fruit);
+});
