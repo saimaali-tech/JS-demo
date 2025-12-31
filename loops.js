@@ -15,3 +15,10 @@ for (let i = 0; i < fruits.length; i++) {
   console.log(fruits[i]);
 }
 
+//while Loop
+
+let i = 1;
+while (i <= 5) {
+  console.log("Count: " + i);
+  i++; // important to avoid infinite loop
+}
