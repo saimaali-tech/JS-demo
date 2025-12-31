@@ -18,16 +18,28 @@
 
 //if...else if...else
 
-let marks = 75;
+// let marks = 75;
 
-if (marks >= 90) {
-  console.log("Grade A");
-} else if (marks >= 70) {
-  console.log("Grade B");
-} else if (marks >= 50) {
-  console.log("Grade C");
-} else {
-  console.log("Fail");
+// if (marks >= 90) {
+//   console.log("Grade A");
+// } else if (marks >= 70) {
+//   console.log("Grade B");
+// } else if (marks >= 50) {
+//   console.log("Grade C");
+// } else {
+//   console.log("Fail");
+// }
+
+//switch Statement
+
+switch(expression) {
+  case value1:
+    // code
+    break;
+  case value2:
+    // code
+    break;
+  default:
+    // code
 }
-
 
