@@ -17,8 +17,16 @@ for (let i = 0; i < fruits.length; i++) {
 
 //while Loop
 
-let i = 1;
-while (i <= 5) {
+// let i = 1;
+// while (i <= 5) {
+//   console.log("Count: " + i);
+//   i++; // important to avoid infinite loop
+// }
+
+
+// do...while Loop
+let i = 6;
+do {
   console.log("Count: " + i);
-  i++; // important to avoid infinite loop
-}
+  i++;
+} while (i <= 5);
