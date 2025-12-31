@@ -1,9 +1,9 @@
 // //if Statement
-let age = 20;
+// let age = 20;
 
-if (age >= 18) {
-  console.log("You are eligible to vote");
-}
+// if (age >= 18) {
+//   console.log("You are eligible to vote");
+// }
 
 
 // // if...else
@@ -40,20 +40,26 @@ if (marks >= 90) {
 //     // code
 // }
 
-let day = 3;
+// let day = 3;
 
-switch (day) {
-  case 1:
-    console.log("Monday");
-    break;
-  case 2:
-    console.log("Tuesday");
-    break;
-  case 3:
-    console.log("Wednesday");
-    break;
-  default:
-    console.log("Invalid day");
-}
+// switch (day) {
+//   case 1:
+//     console.log("Monday");
+//     break;
+//   case 2:
+//     console.log("Tuesday");
+//     break;
+//   case 3:
+//     console.log("Wednesday");
+//     break;
+//   default:
+//     console.log("Invalid day");
+// }
+
+//Ternary Operator
+let age = 19;
+
+let result = age >= 18 ? "Adult" : "Minor";
+console.log(result);
 
 
