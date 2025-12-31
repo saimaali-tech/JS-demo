@@ -32,14 +32,14 @@
 
 //switch Statement
 
-switch(expression) {
-  case value1:
-    // code
-    break;
-  case value2:
-    // code
-    break;
-  default:
-    // code
-}
+// switch(expression) {
+//   case value1:
+//     // code
+//     break;
+//   case value2:
+//     // code
+//     break;
+//   default:
+//     // code
+// }
 
