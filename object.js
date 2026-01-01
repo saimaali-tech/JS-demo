@@ -26,13 +26,25 @@
 // user.greet(); // Hello, my name is Saima
 
 //🔹 Looping Through an Object
+// const user = {
+//   name: "Saima",
+//   age: 22,
+//   role: "Intern"
+// };
+
+// for (let key in user) {
+//   console.log(key + ": " + user[key]);
+// }
+
+//Nested Objects
 const user = {
   name: "Saima",
-  age: 22,
-  role: "Intern"
+  skills: {
+    frontend: "React",
+    backend: "Node.js"
+  }
 };
 
-for (let key in user) {
-  console.log(key + ": " + user[key]);
-}
+console.log(user.skills.frontend); // React
+
 
