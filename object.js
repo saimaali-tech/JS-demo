@@ -14,13 +14,25 @@
 // console.log(user);
 
 //Object with Method (Function inside Object)
+// const user = {
+//   name: "Saima",
+//   role: "Intern",
+
+//   greet: function () {
+//     console.log("Hello, my name is " + this.name);
+//   }
+// };
+
+// user.greet(); // Hello, my name is Saima
+
+//🔹 Looping Through an Object
 const user = {
   name: "Saima",
-  role: "Intern",
-
-  greet: function () {
-    console.log("Hello, my name is " + this.name);
-  }
+  age: 22,
+  role: "Intern"
 };
 
-user.greet(); // Hello, my name is Saima
+for (let key in user) {
+  console.log(key + ": " + user[key]);
+}
+
