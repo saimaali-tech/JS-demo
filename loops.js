@@ -38,3 +38,13 @@ let fruits = ["Apple", "Banana", "Mango"];
 fruits.forEach(function(fruit, index) {
   console.log(index + ": " + fruit);
 });
+
+//Loop Control Statements
+
+//break
+for (let i = 1; i <= 5; i++) {
+  if (i === 3) break;
+  console.log(i);
+}
+// Output: 1 2
+
