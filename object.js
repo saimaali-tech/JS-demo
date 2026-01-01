@@ -1,15 +1,26 @@
-//An object is a collection of key–value pairs (also called properties
+// //An object is a collection of key–value pairs (also called properties
+// const user = {
+//   name: "Saima",
+//   age: 22,
+//   role: "Web Developer Intern"
+// };
+
+// console.log(user);
+// console.log(user.name); // Saima
+// console.log(user.role); // Web Developer Intern
+// user.role = "DevOps Intern"; // update
+// user.city = "Lahore";       // add new property
+
+// console.log(user);
+
+//Object with Method (Function inside Object)
 const user = {
   name: "Saima",
-  age: 22,
-  role: "Web Developer Intern"
+  role: "Intern",
+
+  greet: function () {
+    console.log("Hello, my name is " + this.name);
+  }
 };
 
-console.log(user);
-console.log(user.name); // Saima
-console.log(user.role); // Web Developer Intern
-user.role = "DevOps Intern"; // update
-user.city = "Lahore";       // add new property
-
-console.log(user);
-
+user.greet(); // Hello, my name is Saima
