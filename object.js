@@ -37,14 +37,24 @@
 // }
 
 //Nested Objects
+// const user = {
+//   name: "Saima",
+//   skills: {
+//     frontend: "React",
+//     backend: "Node.js"
+//   }
+// };
+
+// console.log(user.skills.frontend); // React
+
+//Object Destructuring
 const user = {
   name: "Saima",
-  skills: {
-    frontend: "React",
-    backend: "Node.js"
-  }
+  age: 22
 };
 
-console.log(user.skills.frontend); // React
+const { name, age } = user;
+console.log(name, age);
+
 
 
