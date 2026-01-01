@@ -23,10 +23,14 @@
 // console.log(result); // 8
 
 //Function Expression
-const multiply = function (a, b) {
-  return a * b;
+// const multiply = function (a, b) {
+//   return a * b;
+// };
+
+// console.log(multiply(4, 2));
+
+
+//Arrow Functions (Modern JS 🔥)
+const subtract = (a, b) => {
+  return a - b;
 };
-
-console.log(multiply(4, 2));
-
-
