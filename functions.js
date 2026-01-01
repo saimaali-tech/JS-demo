@@ -7,9 +7,17 @@
 // greet(); // calling the function
 
 //Function with Parameters
-function greet(name) {
-  console.log("Hello " + name);
+// function greet(name) {
+//   console.log("Hello " + name);
+// }
+
+// greet("Saima");
+// greet("Ali");
+
+//Function with Return Valu
+function add(a, b) {
+  return a + b;
 }
 
-greet("Saima");
-greet("Ali");
+let result = add(5, 3);
+console.log(result); // 8
