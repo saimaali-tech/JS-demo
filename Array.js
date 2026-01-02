@@ -5,15 +5,15 @@
 
 // Accessing Array Elements
 
-const fruits = ["Apple", "Banana", "Mango"];
+// const fruits = ["Apple", "Banana", "Mango"];
 
-console.log(fruits[0]); // Apple
-console.log(fruits[1]); // Banana
-console.log(fruits[2]); // Mango
+// console.log(fruits[0]); // Apple
+// console.log(fruits[1]); // Banana
+// console.log(fruits[2]); // Mango
 
-console.log(fruits.length); // 3
-fruits[1] = "Orange";
-console.log(fruits); // ["Apple", "Orange", "Mango"]
+// console.log(fruits.length); // 3
+// fruits[1] = "Orange";
+// console.log(fruits); // ["Apple", "Orange", "Mango"]
 
 // Adding Elements
 //Add at the end – push()
@@ -26,9 +26,18 @@ console.log(fruits); // ["Apple", "Orange", "Mango"]
 
 //Removing Elements
 //Remove from end – pop()
-fruits.pop();
-console.log(fruits);
+// fruits.pop();
+// console.log(fruits);
 
-//fruits.pop();
-fruits.shift();
-console.log(fruits);
+// //fruits.pop();
+// fruits.shift();
+// console.log(fruits);
+
+
+//ADVANCED ARRAY METHODS
+const numbers = [1, 2, 3, 4];
+
+// multiply each number by 2
+const doubled = numbers.map(num => num * 2);
+
+console.log(doubled); // [2, 4, 6, 8]
