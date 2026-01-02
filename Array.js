@@ -80,7 +80,12 @@
 // console.log(user);
 
 //some() & every()
-const numbers = [2, 4, 6];
+// const numbers = [2, 4, 6];
 
-console.log(numbers.every(n => n % 2 === 0)); // true
-console.log(numbers.some(n => n > 5));        // true
+// console.log(numbers.every(n => n % 2 === 0)); // true
+// console.log(numbers.some(n => n > 5));        // true
+
+//includes()
+const skills = ["HTML", "CSS", "JS"];
+
+console.log(skills.includes("JS")); // true
