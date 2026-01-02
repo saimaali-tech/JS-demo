@@ -51,10 +51,20 @@
 // console.log(result); // [25, 30]
 
 //reduce() – Combine to Single Value 🔥
-const numbers = [1, 2, 3, 4];
+// const numbers = [1, 2, 3, 4];
 
-const total = numbers.reduce((sum, num) => {
-  return sum + num;
-}, 0);
+// const total = numbers.reduce((sum, num) => {
+//   return sum + num;
+// }, 0);
 
-console.log(total); // 10
+// console.log(total); // 10
+
+//Count items
+const fruits = ["apple", "banana", "apple"];
+
+const count = fruits.reduce((acc, fruit) => {
+  acc[fruit] = (acc[fruit] || 0) + 1;
+  return acc;
+}, {});
+
+console.log(count); // { apple: 2, banana: 1 }
