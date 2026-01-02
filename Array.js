@@ -21,5 +21,14 @@ console.log(fruits); // ["Apple", "Orange", "Mango"]
 // console.log(fruits);
 
 //Add at the beginning – unshift()
-fruits.unshift("Pineapple");
+// fruits.unshift("Pineapple");
+// console.log(fruits);
+
+//Removing Elements
+//Remove from end – pop()
+fruits.pop();
+console.log(fruits);
+
+//fruits.pop();
+fruits.shift();
 console.log(fruits);
