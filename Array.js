@@ -60,11 +60,27 @@
 // console.log(total); // 10
 
 //Count items
-const fruits = ["apple", "banana", "apple"];
+// const fruits = ["apple", "banana", "apple"];
 
-const count = fruits.reduce((acc, fruit) => {
-  acc[fruit] = (acc[fruit] || 0) + 1;
-  return acc;
-}, {});
+// const count = fruits.reduce((acc, fruit) => {
+//   acc[fruit] = (acc[fruit] || 0) + 1;
+//   return acc;
+// }, {});
 
-console.log(count); // { apple: 2, banana: 1 }
+// console.log(count); // { apple: 2, banana: 1 }
+
+
+//find() – First Match
+// const users = [
+//   { id: 1, name: "Ali" },
+//   { id: 2, name: "Saima" }
+// ];
+
+// const user = users.find(u => u.name === "Saima");
+// console.log(user);
+
+//some() & every()
+const numbers = [2, 4, 6];
+
+console.log(numbers.every(n => n % 2 === 0)); // true
+console.log(numbers.some(n => n > 5));        // true
