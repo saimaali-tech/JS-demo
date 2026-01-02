@@ -86,6 +86,11 @@
 // console.log(numbers.some(n => n > 5));        // true
 
 //includes()
-const skills = ["HTML", "CSS", "JS"];
+// const skills = ["HTML", "CSS", "JS"];
 
-console.log(skills.includes("JS")); // true
+// console.log(skills.includes("JS")); // true
+
+//sort() (Important ⚠️)
+const nums = [10, 5, 20];
+nums.sort((a, b) => a - b); // ascending
+console.log(nums);
