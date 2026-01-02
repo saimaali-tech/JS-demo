@@ -43,9 +43,18 @@
 // console.log(doubled); // [2, 4, 6, 8]
 
 //filter() – Select Data
-const numbers = [10, 25, 30, 15];
+// const numbers = [10, 25, 30, 15];
 
-// keep numbers greater than 20
-const result = numbers.filter(num => num > 20);
+// // keep numbers greater than 20
+// const result = numbers.filter(num => num > 20);
 
-console.log(result); // [25, 30]
+// console.log(result); // [25, 30]
+
+//reduce() – Combine to Single Value 🔥
+const numbers = [1, 2, 3, 4];
+
+const total = numbers.reduce((sum, num) => {
+  return sum + num;
+}, 0);
+
+console.log(total); // 10
