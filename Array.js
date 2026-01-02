@@ -17,5 +17,9 @@ console.log(fruits); // ["Apple", "Orange", "Mango"]
 
 // Adding Elements
 //Add at the end – push()
-fruits.push("Grapes");
+// fruits.push("Grapes");
+// console.log(fruits);
+
+//Add at the beginning – unshift()
+fruits.unshift("Pineapple");
 console.log(fruits);
