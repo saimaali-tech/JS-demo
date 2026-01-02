@@ -91,6 +91,16 @@
 // console.log(skills.includes("JS")); // true
 
 //sort() (Important ⚠️)
-const nums = [10, 5, 20];
-nums.sort((a, b) => a - b); // ascending
-console.log(nums);
+// const nums = [10, 5, 20];
+// nums.sort((a, b) => a - b); // ascending
+// console.log(nums);
+
+//splice() vs slice()
+const arr = [1, 2, 3, 4];
+
+// slice (does NOT modify original)
+console.log(arr.slice(1, 3)); // [2, 3]
+
+// splice (MODIFIES original)
+arr.splice(1, 2);
+console.log(arr); // [1, 4]
