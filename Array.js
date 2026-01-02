@@ -15,3 +15,7 @@ console.log(fruits.length); // 3
 fruits[1] = "Orange";
 console.log(fruits); // ["Apple", "Orange", "Mango"]
 
+// Adding Elements
+//Add at the end – push()
+fruits.push("Grapes");
+console.log(fruits);
