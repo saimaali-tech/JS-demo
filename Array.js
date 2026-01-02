@@ -34,10 +34,18 @@
 // console.log(fruits);
 
 
-//ADVANCED ARRAY METHODS
-const numbers = [1, 2, 3, 4];
+// //ADVANCED ARRAY METHODS
+// const numbers = [1, 2, 3, 4];
 
-// multiply each number by 2
-const doubled = numbers.map(num => num * 2);
+// // multiply each number by 2
+// const doubled = numbers.map(num => num * 2);
 
-console.log(doubled); // [2, 4, 6, 8]
+// console.log(doubled); // [2, 4, 6, 8]
+
+//filter() – Select Data
+const numbers = [10, 25, 30, 15];
+
+// keep numbers greater than 20
+const result = numbers.filter(num => num > 20);
+
+console.log(result); // [25, 30]
