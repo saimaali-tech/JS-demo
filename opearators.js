@@ -34,9 +34,16 @@
 // console.log(age < 18 || hasID); // true
 // console.log(!hasID);            // false
 
-//Unary Operators
-let count = 5;
-count++;
-console.log(count); // 6
+// //Unary Operators
+// let count = 5;
+// count++;
+// console.log(count); // 6
 
-console.log(typeof count); // number
+// console.log(typeof count); // number
+
+//Ternary Operator
+let age = 17;
+
+let result = age >= 18 ? "Adult" : "Minor";
+console.log(result);
+
