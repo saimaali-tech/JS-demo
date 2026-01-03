@@ -47,3 +47,8 @@ let age = 17;
 let result = age >= 18 ? "Adult" : "Minor";
 console.log(result);
 
+//String Operators
+let firstName = "Saima";
+let lastName = "Ali";
+
+console.log(firstName + " " + lastName);
