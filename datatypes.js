@@ -6,6 +6,10 @@ let price = 199.99; // decimal
 console.log(age);   // 22
 console.log(price); // 199.99
 
+let bigNumber = 123456789012345678901234567890n;
+console.log(bigNumber);
+
+
 let name = "Saima";
 let course = 'JavaScript';
 
