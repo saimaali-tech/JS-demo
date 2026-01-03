@@ -27,9 +27,16 @@
 
 // //Logical Operators
 
-let age = 22;
-let hasID = true;
+// let age = 22;
+// let hasID = true;
 
-console.log(age > 18 && hasID); // true
-console.log(age < 18 || hasID); // true
-console.log(!hasID);            // false
+// console.log(age > 18 && hasID); // true
+// console.log(age < 18 || hasID); // true
+// console.log(!hasID);            // false
+
+//Unary Operators
+let count = 5;
+count++;
+console.log(count); // 6
+
+console.log(typeof count); // number
