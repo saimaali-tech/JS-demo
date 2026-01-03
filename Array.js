@@ -119,4 +119,13 @@ function addStudent(name, marks) {
 
 // Test
 addStudent("Ayesha", 88);
+//Display All Students
+function showStudents() {
+  students.forEach((student, index) => {
+    console.log(`${index + 1}. ${student.name} - ${student.marks}`);
+  });
+}
+
+// Test
+showStudents();
 
