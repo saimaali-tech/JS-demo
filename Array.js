@@ -145,3 +145,15 @@ function findStudent(name) {
 // Test
 findStudent("Saima");
 
+//Calculate Average Marks
+function calculateAverage() {
+  const total = students.reduce((sum, student) => {
+    return sum + student.marks;
+  }, 0);
+
+  const average = total / students.length;
+  console.log("Average Marks:", average.toFixed(2));
+}
+
+// Test
+calculateAverage();
