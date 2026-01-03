@@ -104,3 +104,19 @@ console.log(arr.slice(1, 3)); // [2, 3]
 // splice (MODIFIES original)
 arr.splice(1, 2);
 console.log(arr); // [1, 4]
+
+//Create Data Structure (Array of Objects)
+// Array to store student objects
+const students = [
+  { name: "Saima", marks: 85 },
+  { name: "Ali", marks: 72 },
+  { name: "Ahmed", marks: 90 }
+];
+function addStudent(name, marks) {
+  students.push({ name, marks });
+  console.log(`Student ${name} added successfully`);
+}
+
+// Test
+addStudent("Ayesha", 88);
+
