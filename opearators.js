@@ -52,3 +52,6 @@ let firstName = "Saima";
 let lastName = "Ali";
 
 console.log(firstName + " " + lastName);
+
+//Bitwise Operators
+console.log(5 & 1); // 1
