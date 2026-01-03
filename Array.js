@@ -96,14 +96,14 @@
 // console.log(nums);
 
 //splice() vs slice()
-const arr = [1, 2, 3, 4];
+// const arr = [1, 2, 3, 4];
 
-// slice (does NOT modify original)
-console.log(arr.slice(1, 3)); // [2, 3]
+// // slice (does NOT modify original)
+// console.log(arr.slice(1, 3)); // [2, 3]
 
-// splice (MODIFIES original)
-arr.splice(1, 2);
-console.log(arr); // [1, 4]
+// // splice (MODIFIES original)
+// arr.splice(1, 2);
+// console.log(arr); // [1, 4]
 
 //Create Data Structure (Array of Objects)
 // Array to store student objects
@@ -128,4 +128,20 @@ function showStudents() {
 
 // Test
 showStudents();
+
+//Find Student by Name
+function findStudent(name) {
+  const student = students.find(
+    s => s.name.toLowerCase() === name.toLowerCase()
+  );
+
+  if (student) {
+    console.log(`${student.name} scored ${student.marks}`);
+  } else {
+    console.log("Student not found");
+  }
+}
+
+// Test
+findStudent("Saima");
 
