@@ -1,3 +1,7 @@
+
+// What is an Operator?
+// An operator performs an operation on one or more values (operands).
+  
 // Types of Operators in JavaScript
 // Arithmetic
 let a = 10;
@@ -15,3 +19,9 @@ console.log(a ** 2); // 100
 let x = 10;
 x += 5;
 console.log(x); // 15
+
+//Comparison Operators
+
+console.log(5 == "5");  // true  ❌
+console.log(5 === "5"); // false ✅
+
