@@ -1,27 +1,35 @@
 
-// What is an Operator?
-// An operator performs an operation on one or more values (operands).
+// // What is an Operator?
+// // An operator performs an operation on one or more values (operands).
   
-// Types of Operators in JavaScript
-// Arithmetic
-let a = 10;
-let b = 3;
+// // Types of Operators in JavaScript
+// // Arithmetic
+// let a = 10;
+// let b = 3;
 
-console.log(a + b);  // 13
-console.log(a - b);  // 7
-console.log(a * b);  // 30
-console.log(a / b);  // 3.33
-console.log(a % b);  // 1
-console.log(a ** 2); // 100
+// console.log(a + b);  // 13
+// console.log(a - b);  // 7
+// console.log(a * b);  // 30
+// console.log(a / b);  // 3.33
+// console.log(a % b);  // 1
+// console.log(a ** 2); // 100
 
 
-//Assignment Operators
-let x = 10;
-x += 5;
-console.log(x); // 15
+// //Assignment Operators
+// let x = 10;
+// x += 5;
+// console.log(x); // 15
 
-//Comparison Operators
+// //Comparison Operators
 
-console.log(5 == "5");  // true  ❌
-console.log(5 === "5"); // false ✅
+// console.log(5 == "5");  // true  ❌
+// console.log(5 === "5"); // false ✅
 
+// //Logical Operators
+
+let age = 22;
+let hasID = true;
+
+console.log(age > 18 && hasID); // true
+console.log(age < 18 || hasID); // true
+console.log(!hasID);            // false
