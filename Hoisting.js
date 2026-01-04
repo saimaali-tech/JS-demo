@@ -52,3 +52,8 @@ console.log(str.split(" ")); // ["Hello", "World"]
 //Number
 let num = 3.14159;
 console.log(num.toFixed(2)); // "3.14"
+
+//Advanced Array Methods (We started this)
+let numbers = [1,2,3,4];
+let doubled = numbers.map(n => n*2);
+console.log(doubled); // [2,4,6,8]
