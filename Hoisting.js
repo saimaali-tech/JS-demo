@@ -62,3 +62,12 @@
 const user = { name: "Saima", role: "Intern" };
 console.log(Object.keys(user)); // ["name", "role"]
 console.log(user?.address?.city); // undefined (optional chaining)
+
+//Asynchronous JavaScript (Important for Real Projects)
+function fetchData(callback) {
+  setTimeout(() => {
+    callback("Data received");
+  }, 1000);
+}
+
+fetchData(data => console.log(data));
