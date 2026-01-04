@@ -48,3 +48,7 @@ let str = "Hello World";
 console.log(str.toUpperCase()); // "HELLO WORLD"
 console.log(str.includes("World")); // true
 console.log(str.split(" ")); // ["Hello", "World"]
+
+//Number
+let num = 3.14159;
+console.log(num.toFixed(2)); // "3.14"
