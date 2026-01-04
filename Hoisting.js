@@ -28,6 +28,17 @@
 // console.log(`Hello ${name}!`); // Hello Saima!
 
 //Destructuring
-const user = { name: "Saima", age: 22 };
-const { name, age } = user;
-console.log(name, age);
+// const user = { name: "Saima", age: 22 };
+// const { name, age } = user;
+// console.log(name, age);
+
+//Spread & Rest
+// Spread
+let arr1 = [1, 2];
+let arr2 = [...arr1, 3, 4];
+
+// Rest
+function sum(...numbers) {
+  return numbers.reduce((a, b) => a + b, 0);
+}
+console.log(sum(1, 2, 3)); // 6
