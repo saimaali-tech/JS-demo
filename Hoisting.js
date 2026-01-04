@@ -101,3 +101,15 @@ try {
   console.log("Always runs");
 }
 
+//DOM Manipulation (Browser JS)
+// Select element
+const btn = document.querySelector("#myButton");
+
+// Add event listener
+btn.addEventListener("click", () => {
+  console.log("Button clicked");
+});
+
+// Change content
+document.querySelector("#output").textContent = "Hello!";
+
