@@ -13,11 +13,17 @@
 
 //Hoisting
 
-console.log(a); // undefined (var is hoisted)
-var a = 10;
+// console.log(a); // undefined (var is hoisted)
+// var a = 10;
 
-// Functions are fully hoisted
-greet();
-function greet() {
-  console.log("Hello!");
-}
+// // Functions are fully hoisted
+// greet();
+// function greet() {
+//   console.log("Hello!");
+// }
+
+//ES6+ Features
+//Template Literals
+let name = "Saima";
+console.log(`Hello ${name}!`); // Hello Saima!
+
