@@ -34,11 +34,17 @@
 
 //Spread & Rest
 // Spread
-let arr1 = [1, 2];
-let arr2 = [...arr1, 3, 4];
+// let arr1 = [1, 2];
+// let arr2 = [...arr1, 3, 4];
 
-// Rest
-function sum(...numbers) {
-  return numbers.reduce((a, b) => a + b, 0);
-}
-console.log(sum(1, 2, 3)); // 6
+// // Rest
+// function sum(...numbers) {
+//   return numbers.reduce((a, b) => a + b, 0);
+// }
+// console.log(sum(1, 2, 3)); // 6
+
+//String & Number Methods
+let str = "Hello World";
+console.log(str.toUpperCase()); // "HELLO WORLD"
+console.log(str.includes("World")); // true
+console.log(str.split(" ")); // ["Hello", "World"]
