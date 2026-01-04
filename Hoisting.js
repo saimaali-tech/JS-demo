@@ -24,6 +24,10 @@
 
 //ES6+ Features
 //Template Literals
-let name = "Saima";
-console.log(`Hello ${name}!`); // Hello Saima!
+// let name = "Saima";
+// console.log(`Hello ${name}!`); // Hello Saima!
 
+//Destructuring
+const user = { name: "Saima", age: 22 };
+const { name, age } = user;
+console.log(name, age);
