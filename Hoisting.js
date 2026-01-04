@@ -58,24 +58,36 @@
 // let doubled = numbers.map(n => n*2);
 // console.log(doubled); // [2,4,6,8]
 
-//Object Methods & Advanced Objects
-const user = { name: "Saima", role: "Intern" };
-console.log(Object.keys(user)); // ["name", "role"]
-console.log(user?.address?.city); // undefined (optional chaining)
+// //Object Methods & Advanced Objects
+// const user = { name: "Saima", role: "Intern" };
+// console.log(Object.keys(user)); // ["name", "role"]
+// console.log(user?.address?.city); // undefined (optional chaining)
 
-//Asynchronous JavaScript (Important for Real Projects)
-function fetchData(callback) {
-  setTimeout(() => {
-    callback("Data received");
-  }, 1000);
+// //Asynchronous JavaScript (Important for Real Projects)
+// function fetchData(callback) {
+//   setTimeout(() => {
+//     callback("Data received");
+//   }, 1000);
+// }
+
+// fetchData(data => console.log(data));
+
+// //Promises
+// const promise = new Promise((resolve, reject) => {
+//   setTimeout(() => resolve("Success!"), 1000);
+// });
+
+// promise.then(result => console.log(result));
+
+//Async / Await
+function fetchData() {
+  return new Promise(resolve => setTimeout(() => resolve("Done!"), 1000));
 }
 
-fetchData(data => console.log(data));
+async function getData() {
+  const data = await fetchData();
+  console.log(data);
+}
 
-//Promises
-const promise = new Promise((resolve, reject) => {
-  setTimeout(() => resolve("Success!"), 1000);
-});
-
-promise.then(result => console.log(result));
+getData();
 
